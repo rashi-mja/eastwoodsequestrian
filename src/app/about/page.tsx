@@ -52,15 +52,20 @@ export default function AboutPage() {
           </div>
         </div>
         <p className="flex-1 text-center text-sm text-muted-foreground lg:text-start xl:text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, harum
-          odio! Molestias natus possimus dolorem modi libero eaque in aliquam
-          harum recusandae nam! Reprehenderit soluta fuga consequuntur, iure
-          corrupti autem! Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Modi asperiores voluptate, veritatis non placeat numquam.
-          Repellendus mollitia aut reprehenderit est. Reprehenderit soluta fuga
-          consequuntur, iure corrupti autem! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Modi asperiores voluptate, veritatis non
-          placeat numquam. Repellendus mollitia aut reprehenderit est.
+          At Eastwood Equestrian, we are dedicated to fostering a love for
+          equestrian sports and nurturing the bond between horse and rider.
+          Nestled in the heart of nature, Eastwood Equestrian is a haven for
+          riders of all skill levels, from beginners taking their first steps
+          into the world of horsemanship to seasoned equestrians seeking
+          advanced training.
+          <br />
+          <br />
+          Our facilities are equipped with state-of-the-art amenities,
+          including spacious arenas, expert trainers, and well-cared-for
+          horses. We pride ourselves on creating a community that values
+          respect, dedication, and the joy of riding. Whether you’re here to
+          learn, compete, or simply enjoy the serene connection with horses,
+          Eastwood Equestrian is your perfect destination.
         </p>
       </div>
     </div>

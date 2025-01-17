@@ -29,7 +29,7 @@ export default function BlogPage() {
               key={blog.slug}
               className="group relative flex flex-col space-y-2"
             >
-              {/* {!blog.image && ( */}
+              {/* {blog.image && ( */}
               <Image
                 src={
                   blog.image.trim() !== ""
