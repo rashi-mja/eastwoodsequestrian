@@ -61,6 +61,8 @@ export default async function BlogPageItem({ params }: BlogPageItemProps) {
     return {};
   }
 
+  console.log(params?.slug?.at(-1))
+
   return (
     <article className="container relative max-w-3xl py-6 lg:py-10">
       <div>
@@ -95,16 +97,20 @@ export default async function BlogPageItem({ params }: BlogPageItemProps) {
           </div>
         )}
 
-        {blog.image && (
-          <Image
-            src={blog.image}
-            alt={blog.title}
-            width={720}
-            height={405}
-            priority
-            className="my-8 border bg-muted transition-colors"
-          />
-        )}
+        {/* {blog.image && ( */}
+        <Image
+          src={
+            blog.image.trim() !== ""
+              ? blog.image
+              : `/images/blog/${params?.slug?.at(-1)}.png`
+          }
+          alt={blog.title}
+          width={720}
+          height={405}
+          priority
+          className="my-8 border bg-muted transition-colors"
+        />
+        {/* )} */}
         <Mdx code={blog.body} />
         <hr className="mt-12" />
         <div className="flex justify-center py-6 lg:py-10">

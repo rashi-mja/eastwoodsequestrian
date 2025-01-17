@@ -1,8 +1,8 @@
 import authorAvatar from "../../public/images/author/devbertskie.png";
 export const siteConfig = {
-  name: "Mdx Blog Template",
+  name: "Eastwoods Equestrian",
   description:
-    "MDX Blog Template is a simple implementation of a markdown static blog. Built with Next.js 14 and velite js.",
+    "Eastwoods provides bespoke care and expert training, crafting confident champions in show jumping and eventing with 5-star vetted quality.",
   author: "devbertskie",
   authorImage: authorAvatar,
   social: {

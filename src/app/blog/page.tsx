@@ -29,15 +29,19 @@ export default function BlogPage() {
               key={blog.slug}
               className="group relative flex flex-col space-y-2"
             >
-              {blog.image && (
-                <Image
-                  src={blog.image}
-                  alt={blog.title}
-                  width={804}
-                  height={452}
-                  className="border bg-muted transition-colors"
-                />
-              )}
+              {/* {!blog.image && ( */}
+              <Image
+                src={
+                  blog.image.trim() !== ""
+                    ? blog.image
+                    : `/images/blog/${blog?.slug.split("/").pop()}.png`
+                }
+                alt={blog.title}
+                width={804}
+                height={452}
+                className="border bg-muted transition-colors"
+              />
+              {/* )} */}
 
               <h2 className="text-2xl font-extrabold text-primary">
                 {blog.title}

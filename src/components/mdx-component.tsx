@@ -1,7 +1,10 @@
 /* eslint-disable no-new-func */
+"use client"
+
 import { cn } from "@/lib/utils";
 import React, { HTMLAttributes } from "react";
 import * as runtime from "react/jsx-runtime";
+import InteractiveQuiz from "@/components/InteractiveQuiz";
 
 import Image from "next/image";
 
@@ -157,6 +160,7 @@ const components = {
     />
   ),
   Image,
+  InteractiveQuiz,
 };
 
 interface MdxProps {

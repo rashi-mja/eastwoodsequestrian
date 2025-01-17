@@ -10,10 +10,12 @@ const lexend = Lexend({ subsets: ["latin"], variable: "--font-lexend" });
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Mdx Blog Template",
-    default: "Mdx Blog Template",
+    template: "%s | Eastwoods Equestrian",
+    default: "Eastwoods Equestrian - Crafting Future Champions",
   },
+  description: "Eastwoods provides bespoke care and expert training, crafting confident champions for show jumping and eventing on 40 acres of diverse terrain.",
 };
+
 
 const fontCode = localFont({
   src: "../assets/fonts/GeistMonoVF.woff2",
